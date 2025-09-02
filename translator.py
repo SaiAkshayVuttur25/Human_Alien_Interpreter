@@ -51,9 +51,7 @@ def translate_sentence(sentence, dictionary):
     return ' '.join(translated_words)
 
 def main():
-    """
-    Main function to run the alien-human interpreter.
-    """
+    # Main function to run the alien-human interpreter.
     print("--- Alien-Human Language Interpreter ---")
     
     # Load dictionaries from the CSV file
